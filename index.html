@@ -5,9 +5,10 @@
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/offline-js/0.7.18/themes/offline-language-english.css" />
 	<title>lavlorn Github</title>
 <script>
+var i=1;
 var run = function(){
   var req = new XMLHttpRequest();
-  req.timeout = 5000; var i=1;
+  req.timeout = 5000; 
   req.open('GET', 'https://lavlorn.github.io/?'+i, true);
   req.send(); i++;
 }
